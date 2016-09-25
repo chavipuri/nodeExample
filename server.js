@@ -11,4 +11,4 @@ app.get('/', function (req, res) {
 
 app.listen(process.env.PORT || 5000);
 module.exports = app;
-//console.log('Running on http://localhost:' + PORT);
+console.log('Running on http://localhost:' + 5000);
