@@ -7,6 +7,6 @@ app.get('/', function (req, res) {
   res.send('Hey! Chavi & Ankush');
 });
 
-app.listen(process.env.PORT || 5000);
+app.listen(8080);
 module.exports = app;
-console.log('Running now on http://localhost:' + 5000);
+console.log('Running now on EC2 machine');
