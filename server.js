@@ -7,6 +7,6 @@ app.get('/', function (req, res) {
   res.send('I am the best!!');
 });
 
-app.listen(8080);
+app.listen(5000);
 module.exports = app;
 console.log('Running now on EC2 machine');
