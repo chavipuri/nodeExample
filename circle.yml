@@ -16,5 +16,5 @@ deployment:
   localhost:
     branch: master
     commands:
-      - docker run -p 5000:5000 -d circleci/elasticsearch
+      - docker -H tcp://localhost:5000 run -p 5000:5000 -d circleci/elasticsearch
 
