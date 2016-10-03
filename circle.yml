@@ -18,6 +18,6 @@ deployment:
   rancher:
     branch: master
     commands:
-      - docker login -e "chavi.malhotra@gmail.com" -u "chavipuri" -p "ankush"
+      - docker login -e $DOCKER_EMAIL -u "chavipuri" -p "ankush"
       - ./deploy.sh
 
