@@ -14,3 +14,9 @@ test:
   post: 
     - ./script/test
 
+deployment:
+  rancher:
+    branch: master
+    commands:
+      - ./deploy.sh
+
