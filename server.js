@@ -9,4 +9,4 @@ app.get('/', function (req, res) {
 
 app.listen(5000);
 module.exports = app;
-console.log('Running now on EC2 machine');
+console.log('Running now on EC2 machine!');
