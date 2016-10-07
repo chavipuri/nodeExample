@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ssh ubuntu@54.172.3.252 <<EOF
+ssh ubuntu@54.191.176.102 <<EOF
    docker stop web || true
    docker rm web || true
    docker rmi chavi/node-web-app || true
